@@ -1,4 +1,4 @@
-package com.bagusrizki.navigation.ui.theme
+package vimal.bottomnavigationdemo.ui.theme
 
 
 import androidx.compose.foundation.shape.RoundedCornerShape

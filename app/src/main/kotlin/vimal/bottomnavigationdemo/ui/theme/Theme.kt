@@ -1,6 +1,5 @@
-package com.bagusrizki.navigation.ui.theme
+package vimal.bottomnavigationdemo.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -17,10 +16,11 @@ private val DarkColorScheme = darkColorScheme(
 
 private val LightColorScheme = lightColorScheme(
 
+
 )
 
 @Composable
-fun NavigationTheme(
+fun BottomNavigationDemoTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = true,
     content: @Composable () -> Unit
